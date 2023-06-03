@@ -2,10 +2,10 @@
 READ ME
 
 Uses p5 web editor: 
-https://p5js.org/
+https://p5js.org/ \n
 https://editor.p5js.org/
 
-FAQ about the data. FYI it's in celsius. This is reflected in the code:
+FAQ about the data. FYI it's in celsius. This is reflected in the code: \n
 https://data.giss.nasa.gov/gistemp/faq/
 
 Citation: https://data.giss.nasa.gov/gistemp/
