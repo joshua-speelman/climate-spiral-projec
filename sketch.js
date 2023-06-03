@@ -14,6 +14,7 @@ function preload() {
 
 function setup() {
   
+  pixelDensity(2);
   centerX = width / 2;
   centerY = height / 2;
   radius = 150;
@@ -36,7 +37,6 @@ function setup() {
 }
 
 function draw() {
-
   
   // Base pattern params
   translate(width/2, height/2);
@@ -58,6 +58,7 @@ function draw() {
   fill(255);
   noStroke();
   text("1°", 154, 0);
+  noLoop();
  
   // Outer circle
   stroke(255);
@@ -72,10 +73,8 @@ function draw() {
   //x = r*cos(angle)
   //y = r*sin(angle)
   
-  
   // looping through each month in the array and dispersing them based on the above function
   for (let i = 0; i < monthArray.length; i++) {
-    // todo: the text for 0° and 1° are duplicating on generation, for some reason
     noStroke();
     fill(255);
     textAlign(CENTER);
